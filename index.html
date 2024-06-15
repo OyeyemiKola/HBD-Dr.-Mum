@@ -1,37 +1,307 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>Calculator</title>
-  <link href="styles.css" rel="stylesheet">
-  <script src="script.js" defer></script>
-</head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>Happy Birthday Dr. Mum!</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: Poppins, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f8f8f8; /* Light gray background */
+            color: #333; /* Dark gray text */
+        }
+        .container {
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: #fff; /* White background */
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Shadow effect */
+        }
+        h1 {
+            color: #FF4500; /* Orange heading */
+            text-align: center;
+            font-family: Poppins;
+        }
+        .section0,.section1,.section2,.section3 {
+            margin-bottom: 30px; /* Space between sections */
+            padding: 20px;
+            border-radius: 20px;
+            overflow: hidden;
+            text-align: center;
+        }
+        .section0 {
+            background-color: #FFC0CB; /* Light pink background for odd sections */
+        }
+        .section1 {
+            background-color: #ADD8E6; /* Light blue background for even sections */
+        }
+        .section2 {
+            background-color: #90EE90; /* Light blue background for even sections */
+        }
+        .section3 {
+            background-color: #f0f041; /* Light blue background for even sections */
+        }
+        .section0,.section1,.section2,.section3 h2 {
+            color: #fff; /* White heading for sections */
+            margin-top: 0;
+        }
+        .photo {
+            max-width: 100%;
+            height: auto;
+            display: block;
+            margin: 10px auto; /* Center images */
+            border-radius: 5px;
+        }
+        p {
+            text-align: center;
+            color: #0a0a0a;
+        }
+        .youtube-container {
+            position: relative;
+            width: 100%;
+            padding-bottom: 56.25%; /* Aspect ratio for 16:9 video */
+            overflow: hidden;
+            margin-top: 20px;
+            border-radius: 10px;
+        }
+        .youtube-container iframe {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+        }
+        #celebration {
+            width: 100%;
+            height: 100%;
+            position: fixed;
+            top: 0;
+            left: 0;
+            z-index: 9999;
+            pointer-events: none;
+        }
+        .paragraph {
+            margin-top: 15px;
+            color: #0a0a0a;
+        }
+        .section2 > p {
+            color: #0a0a0a;
+        }
+    </style>
+</head> 
 <body>
-  <div class="calculator-grid">
-    <div class="output">
-      <div data-previous-operand class="previous-operand"></div>
-      <div data-current-operand class="current-operand"></div>
+
+<div class="container">
+    <h1>Happy Birthday Dr. Mum!</h1>
+
+    <div class="section0">
+        <h2>Wishing You a Wonderful Birthday!</h2>
+        <p>On your special day, We wish you all the happiness, love, and joy in the world. May your birthday be and life onwards filled with laughter and cherished moments that will last a lifetime.</p>
+        <p>With love,</p>
+        <p>Family</p>
     </div>
-    <button data-all-clear class="span-two">AC</button>
-    <button data-delete>DEL</button>
-    <button data-operation>÷</button>
-    <button data-number>1</button>
-    <button data-number>2</button>
-    <button data-number>3</button>
-    <button data-operation>*</button>
-    <button data-number>4</button>
-    <button data-number>5</button>
-    <button data-number>6</button>
-    <button data-operation>+</button>
-    <button data-number>7</button>
-    <button data-number>8</button>
-    <button data-number>9</button>
-    <button data-operation>-</button>
-    <button data-number>.</button>
-    <button data-number>0</button>
-    <button data-equals class="span-two">=</button>
-  </div>
+
+    <div class="section1">
+        <h2>Celebrating Your Presence</h2>
+        <p>Here are some special moments captured during our time together. Each memory is a treasure, and I'm grateful for the joy you bring into my life.</p>
+        <img src="Mum Fire\IMG_20200716_215349_669_1.png" alt="Birthday Photo 1" class="photo">
+        <img src="Mum Fire\20200622_161322_1.png" alt="Birthday Photo 2" class="photo">
+        <!-- Add more images as needed -->
+    </div>
+    <div class="section2">
+        <h2>You Truly Care</h2>
+        <p> I love children, honestly i do, they are one of the most rewarding ways to spend your time, knowing you're impacting them positively for life.<p class="paragraph"></p>
+        <p>But, I still can't compare to how much she loves children, not just love but genuinely cares, not just the one she knows like her children, or her friend's children or her nephews, that's what makes it more special.</p><p class="paragraph"></p>
+        <p>I've seen it personally, moments where she genuinely cares, from slowing down or completely stopping with cars behind her honking for students to cross the roads when others sped past like nothing happened, or interferring when two kids where being harassed by an adult, or correcting students who were carelessly playing or fighting on the road or the most common one, when she reaches into her pocket to give to those who ask or those who don't.</p>  <p class="paragraph"></p>
+        <p>It's makes you think differently, every correction I don't want to hear, every advice she gives when I'm not ready to listen, every criticism, every nag, anger. Itis all because she genuinely cares, and it's said we don't see it that way, it's even worse when we don't appreciate it.</p><br><p class="paragraph"></p>
+        <p>- Kola Oyeyemi </p>
+        <img src="Mum Fire\IMG_20200716_215349_668_1.png" alt="Birthday Photo 1" class="photo">
+        <img src="Mum Fire\IMG-20201012-WA0004_1.png" alt="Birthday Photo 2" class="photo">
+        <!-- Add more images as needed -->
+    </div>
+
+    <div class="section3">
+        <h2>Special Video Tribute</h2>
+        <p>How do we say thank you?<br> <p class="paragraph"></p>
+        With everything you've done, a thousand words would't be enough. Luckily, a picture is worth a thousand words and a video, is close enough to saying thank you.<br><p class="paragraph"></p>
+        Without Further Ado, We present you this little video.</p>
+        <div class="youtube-container">
+            <!-- Replace 'YOUR_YOUTUBE_VIDEO_ID' with the actual ID of your YouTube video -->
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/YOUR_YOUTUBE_VIDEO_ID" frameborder="0" allowfullscreen></iframe>
+        </div>
+    </div>
+
+</div>
+
+
+<canvas id="fireworks"></canvas>
+<canvas id="confetti"></canvas>
+
+<script>
+    // Virtual Fireworks
+    var fireworksCanvas = document.getElementById('fireworks');
+    var fireworksCtx = fireworksCanvas.getContext('2d');
+    fireworksCanvas.width = window.innerWidth;
+    fireworksCanvas.height = window.innerHeight;
+
+    var fireworks = [];
+    var particles = [];
+
+    function Firework() {
+        this.x = fireworksCanvas.width / 2;
+        this.y = fireworksCanvas.height;
+        this.color = 'hsl(' + Math.random() * 360 + ', 100%, 50%)';
+        this.radius = Math.random() * 2 + 1;
+        this.speed = Math.random() * 3 + 2;
+        this.angle = Math.random() * Math.PI * 2;
+        this.targetRadius = Math.random() * 10 + 10;
+        this.targetAngle = Math.random() * Math.PI / 4 - Math.PI / 8;
+        this.lineWidth = 2;
+    }
+
+    Firework.prototype.update = function () {
+        this.x += Math.cos(this.angle) * this.speed;
+        this.y -= Math.sin(this.angle) * this.speed;
+        this.speed -= 0.05;
+        if (this.speed <= 0) {
+            fireworks.push(new Particle(this.x, this.y, this.color));
+            fireworks.splice(fireworks.indexOf(this), 1);
+        }
+    }
+
+    Firework.prototype.draw = function () {
+        fireworksCtx.beginPath();
+        fireworksCtx.arc(this.x, this.y, this.radius, 0, Math.PI * 2);
+        fireworksCtx.fillStyle = this.color;
+        fireworksCtx.fill();
+    }
+
+    function Particle(x, y, color) {
+        this.x = x;
+        this.y = y;
+        this.color = color;
+        this.radius = Math.random() * 2;
+        this.speed = Math.random() * 3 + 2;
+        this.angle = Math.random() * Math.PI * 2;
+    }
+
+    Particle.prototype.update = function () {
+        this.x += Math.cos(this.angle) * this.speed;
+        this.y -= Math.sin(this.angle) * this.speed;
+        this.speed -= 0.05;
+    }
+
+    Particle.prototype.draw = function () {
+        fireworksCtx.beginPath();
+        fireworksCtx.arc(this.x, this.y, this.radius, 0, Math.PI * 2);
+        fireworksCtx.fillStyle = this.color;
+        fireworksCtx.fill();
+    }
+
+    function animateFireworks() {
+        requestAnimationFrame(animateFireworks);
+        fireworksCtx.clearRect(0, 0, fireworksCanvas.width, fireworksCanvas.height);
+        fireworks.forEach(function (firework) {
+            firework.draw();
+            firework.update();
+        });
+        particles.forEach(function (particle) {
+            particle.draw();
+            particle.update();
+        });
+    }
+
+    function createFirework() {
+        fireworks.push(new Firework());
+    }
+
+    window.addEventListener('click', createFirework);
+
+    // Virtual Confetti Animation
+    var confettiCanvas = document.getElementById('confetti');
+    var confettiCtx = confettiCanvas.getContext('2d');
+    confettiCanvas.width = window.innerWidth;
+    confettiCanvas.height = window.innerHeight;
+
+    var confettiColors = ['#ff0000', '#00ff00', '#0000ff', '#ffff00', '#ff00ff', '#00ffff'];
+
+    function Confetti(x, y, color) {
+        this.x = x;
+        this.y = y;
+        this.color = color;
+        this.angle = Math.random() * Math.PI * 2;
+        this.velocity = Math.random() * 3 + 2;
+        this.width = Math.random() * 8 + 5;
+        this.height = Math.random() * 8 + 5;
+    }
+
+    Confetti.prototype.update = function () {
+        this.x += Math.cos(this.angle) * this.velocity;
+        this.y += Math.sin(this.angle) * this.velocity;
+        this.velocity -= 0.1;
+    }
+
+    Confetti.prototype.draw = function () {
+        confettiCtx.fillStyle = this.color;
+        confettiCtx.fillRect(this.x, this.y, this.width, this.height);
+    }
+
+    function animateConfetti() {
+        requestAnimationFrame(animateConfetti);
+        confettiCtx.clearRect(0, 0, confettiCanvas.width, confettiCanvas.height);
+        particles.forEach(function (confetti) {
+            confetti.update();
+            confetti.draw();
+        });
+    }
+
+    function createConfetti(x, y) {
+        for (var i = 0; i < 10; i++) {
+            var color = confettiColors[Math.floor(Math.random() * confettiColors.length)];
+            particles.push(new Confetti(x, y, color));
+        }
+    }
+
+    var doubleTap = false;
+    var lastTap = 0;
+    window.addEventListener('touchend', function (event) {
+        var now = new Date().getTime();
+        var timesince = now - lastTap;
+        if (timesince < 600 && timesince > 0 && doubleTap == false) {
+            doubleTap = true;
+            createConfetti(event.changedTouches[0].pageX, event.changedTouches[0].pageY);
+            setTimeout(function () {
+                doubleTap = false;
+            }, 600);
+        } else {
+            lastTap = new Date().getTime();
+        }
+    });
+
+    var tripleClick = false;
+    var clicks = 0;
+    window.addEventListener('click', function () {
+        clicks++;
+        if (clicks === 3 && !tripleClick) {
+            createFirework();
+            tripleClick = true;
+            setTimeout(function () {
+                clicks = 0;
+                tripleClick = false;
+            }, 500);
+        }
+    });
+
+    animateFireworks();
+    animateConfetti();
+</script>
+
 </body>
 </html>
+
